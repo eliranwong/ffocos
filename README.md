@@ -35,16 +35,23 @@ Simply run 'ffocos' to keep fcitx selection panel working on other fcitx-partial
 # Install for All Users
 
 > sudo apt install wget xz-utils
+
 > wget https://github.com/eliranwong/ffocos/raw/main/ffocos.tar.xz
+
 > sudo tar -xvf ffocos.tar.xz -C "/"
 
 # Install for a User
 
 > sudo apt install wget
+
 > mkdir -p .local/bin
+
 > cd .local/bin
+
 > wget https://github.com/eliranwong/ffocos/raw/main/ffocos_linux_amd64
+
 > mv ffocos_linux_amd64 ffocos
+
 > chmod +x ffocos
 
 # Build from Source
@@ -56,7 +63,9 @@ If this does not work for you, you may want to build one on your device.
 With git and go (https://go.dev/) installed, run:
 
 > git clone https://github.com/eliranwong/ffocos.git
+
 > cd ffocos
+
 > go build
 
 # To run
