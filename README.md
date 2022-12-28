@@ -28,3 +28,32 @@ This is created to help fcitx working on fcitx-partially-compatible apps, descri
 
 Simply run 'ffocos' to keep fcitx selection panel working on other fcitx-partially-compatible apps.
 
+# Screenshot
+
+![ffocos_screenshot](https://user-images.githubusercontent.com/25262722/209792683-2d1bebe4-3375-4fef-a36b-4c6e79acaa73.png)
+
+# Install for All Users
+
+> sudo apt install wget xz-utils
+> wget https://raw.githubusercontent.com/eliranwong/ffocus/main/ffocos.tar.xz
+> sudo tar -xvf ffocos.tar.xz -C "/"
+
+# Install for a User
+
+> sudo apt install wget
+> mkdir -p .local/bin
+> cd .local/bin
+> wget https://raw.githubusercontent.com/eliranwong/ffocus/main/ffocos
+> chmod +x ffocos
+
+# Build from Source
+
+The binary provided here are built for linux amd64.
+
+If this does not work for you, you may want to build one on your device.
+
+With git and go (https://go.dev/) installed, run:
+
+> git clone https://github.com/eliranwong/ffocos.git
+> cd ffocos
+> go build
