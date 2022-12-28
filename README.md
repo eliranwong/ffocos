@@ -44,9 +44,9 @@ Simply run 'ffocos' to keep fcitx selection panel working on other fcitx-partial
 
 > sudo apt install wget
 
-> mkdir -p .local/bin
+> mkdir -p ~/.local/bin
 
-> cd .local/bin
+> cd ~/.local/bin
 
 > wget https://github.com/eliranwong/ffocos/raw/main/ffocos_linux_amd64
 
@@ -71,3 +71,7 @@ With git and go (https://go.dev/) installed, run:
 # To run
 
 > ffocos > /dev/null 2>&1 & disown
+
+# To Create an Alias
+
+echo 'alias ffocos="ffocos > /dev/null 2>&1 & disown"' >> ~/.bashrc
