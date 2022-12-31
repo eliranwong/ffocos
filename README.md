@@ -72,6 +72,8 @@ With git and go (https://go.dev/) installed, run:
 
 > ffocos > /dev/null 2>&1 & disown
 
+Remarks: run ffocos, and keep it running, before launching the application that has an issue with fcitx.
+
 # To Create an Alias
 
 echo 'alias ffocos="ffocos > /dev/null 2>&1 & disown"' >> ~/.bashrc
